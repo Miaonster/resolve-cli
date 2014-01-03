@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'resolve-cli';
+
+var path = require('path');
+
+var result,
+    argv = process.argv.slice();
+
+argv.shift();
+argv.shift();
+
+result = path.resolve.apply(path, argv);
+
+console.log(result);

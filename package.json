@@ -1,0 +1,26 @@
+{
+  "name": "resolve-cli",
+  "version": "0.1.3",
+  "description": "Resolve path in command line",
+  "bin": {
+    "resolve": "bin/resolve",
+    "ff": "bin/resolve"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Witcher42/resolve-cli.git"
+  },
+  "keywords": [
+    "resolve",
+    "command",
+    "line"
+  ],
+  "author": "Witcher42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Witcher42/resolve-cli/issues"
+  }
+}
