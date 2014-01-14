@@ -1,4 +1,4 @@
-# Resolve-Cli
+# Resolve-Cli ![resolve-cli.png](https://badge.fury.io/js/resolve-cli.png)
 
 Resolve path in command line.
 
